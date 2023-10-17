@@ -1,0 +1,44 @@
+/* start  global attribute */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Poppins', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+.boxShadow {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 20px;
+  padding: 100px;
+}
+/* end global attribute */
+
+
+
+
+input {
+  width: 100%;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #999;
+  padding: 6px 30px;
+  box-sizing: border-box;
+}
+input:focus{
+  outline: none;
+}
+.Notes{
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(2,2,18,1) 35%, #314EE6 100%);    color: #fff;
+
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+
